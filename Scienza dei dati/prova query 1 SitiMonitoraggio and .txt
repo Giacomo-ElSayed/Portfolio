@@ -1,0 +1,40 @@
+query 1>> restituisce i laghi con una riserva di acqua artificiale:
+CorpiIdrici and RiservaAcquaArtificiale value "reservoir" and TipoCorpoIdrico value "LW"
+
+
+query 2>> restituisce i siti di monitoraggio di fiumi naturali:
+SitiMonitoraggio and (monitora some (NaturalAWBHMWB value "Natural" and TipoCorpoIdrico value "RW"))
+
+
+query 3>> restituisce i siti che hanno registrato più di un campione con lo stato ecologico corrispondente a una classe (ValoreClassificazione) inferiore a 3:
+SitiMonitoraggio and (haRegistrato some (nCampioni some xsd:nonNegativeInteger[>1])) and
+(haRegistrato some (StatoEcologicoRegistrato some(ValoreClassificazioneEcologica some xsd:nonNegativeInteger[<3])))
+
+
+query 4>> corpi idrici i cui siti di monitoraggio hanno registrato con il sistema di classificazione IBGN la proprietà PhytoplanktonEQR_E e i corpi idrici i cui siti di monitoraggio hanno registrato con il sistema Chla la propietà PhytoplanktonEQR:
+CorpiIdrici and
+(inverse monitora some(haRegistrato some(SistemaClassificazione value "IBGN"))) and
+(inverse monitora some(haRegistrato some(NomeProprietaOsservate value "PhytoplanktonEQR_E")))
+ or
+(inverse monitora some(haRegistrato some(SistemaClassificazione value "Chla"))) and
+(inverse monitora some(haRegistrato some(NomeProprietaOsservate value "PhytoplanktonEQR")))
+
+-----
+
+query 5>> registrazioni del corpo idrico Danubio:
+registrazioni and(inverse haRegistrato some(monitora some(NomeCorpoIdrico value "DANUBE")))
+
+
+query 6>> restituisce i siti di monitoraggio che hanno registrato 1 campione:
+SitiMonitoraggio and (haRegistrato some (nCampioni value 1))
+
+
+query 7>> restituisce i siti di monitoraggio che hanno registrato più di un campione:
+SitiMonitoraggio and (haRegistrato some (nCampioni some xsd:nonNegativeInteger[>1])) 
+
+
+query 8>> corpi idrici che hanno registrato un numero superiore a 2 campioni corrispondenti a uno stato ecologico di classe inferiore a 3 tra il 2010 e il 2020:
+CorpiIdrici and(inverse monitora some(haRegistrato some(StatoEcologicoRegistrato some(ValoreClassificazioneEcologica some xsd:nonNegativeInteger[<3])))) and
+(inverse monitora some(haRegistrato some(data some  xsd:nonNegativeInteger[>2010]))) and
+(inverse monitora some(haRegistrato some(data some  xsd:nonNegativeInteger[<2020]))) and
+(inverse monitora some(haRegistrato some(nCampioni some  xsd:nonNegativeInteger[>2])))

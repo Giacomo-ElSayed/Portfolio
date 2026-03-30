@@ -1,0 +1,409 @@
+Prefix(:=<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3>
+
+Declaration(Class(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorpiIdrici>))
+Declaration(Class(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ParametriStatoEcologico>))
+Declaration(Class(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SitiMonitoraggio>))
+Declaration(Class(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#registrazioni>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoEcologicoRegistrato>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#haRegistrato>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#monitora>))
+Declaration(DataProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CodProprietaOsservate>))
+Declaration(DataProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorrispondenteValoreCE>))
+Declaration(DataProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#EQRValue>))
+Declaration(DataProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#EQRValueNorm>))
+Declaration(DataProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#IDSitoM>))
+Declaration(DataProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NaturalAWBHMWB>))
+Declaration(DataProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeCorpoIdrico>))
+Declaration(DataProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeProprietaOsservate>))
+Declaration(DataProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RegioneGeografica>))
+Declaration(DataProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RiservaAcquaArtificiale>))
+Declaration(DataProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SistemaClassificazione>))
+Declaration(DataProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoID>))
+Declaration(DataProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#TipoCorpoIdrico>))
+Declaration(DataProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ValoreClassificazioneEcologica>))
+Declaration(DataProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#data>))
+Declaration(DataProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lat>))
+Declaration(DataProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lon>))
+Declaration(DataProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#nCampioni>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo3>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo4>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo5>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo6>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe3>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe4>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe5>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg3>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg4>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg5>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg6>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg7>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito3>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito4>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito5>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito6>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito7>))
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoEcologicoRegistrato> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoEcologicoRegistrato>)
+
+FunctionalObjectProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoEcologicoRegistrato>)
+ObjectPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoEcologicoRegistrato> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#registrazioni>)
+ObjectPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoEcologicoRegistrato> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ParametriStatoEcologico>)
+
+# Object Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#haRegistrato> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#haRegistrato>)
+
+FunctionalObjectProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#haRegistrato>)
+ObjectPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#haRegistrato> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SitiMonitoraggio>)
+ObjectPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#haRegistrato> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#registrazioni>)
+
+# Object Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#monitora> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#monitora>)
+
+FunctionalObjectProperty(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#monitora>)
+ObjectPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#monitora> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SitiMonitoraggio>)
+ObjectPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#monitora> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorpiIdrici>)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CodProprietaOsservate> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CodProprietaOsservate>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CodProprietaOsservate> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#registrazioni>)
+DataPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CodProprietaOsservate> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorrispondenteValoreCE> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorrispondenteValoreCE>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorrispondenteValoreCE> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ParametriStatoEcologico>)
+DataPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorrispondenteValoreCE> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#EQRValue> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#EQRValue>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#EQRValue> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ParametriStatoEcologico>)
+DataPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#EQRValue> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#EQRValueNorm> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#EQRValueNorm>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#EQRValueNorm> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ParametriStatoEcologico>)
+DataPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#EQRValueNorm> xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#IDSitoM> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#IDSitoM>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#IDSitoM> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SitiMonitoraggio>)
+DataPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#IDSitoM> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NaturalAWBHMWB> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NaturalAWBHMWB>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NaturalAWBHMWB> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorpiIdrici>)
+DataPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NaturalAWBHMWB> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeCorpoIdrico> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeCorpoIdrico>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeCorpoIdrico> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorpiIdrici>)
+DataPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeCorpoIdrico> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeProprietaOsservate> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeProprietaOsservate>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeProprietaOsservate> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#registrazioni>)
+DataPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeProprietaOsservate> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RegioneGeografica> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RegioneGeografica>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RegioneGeografica> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SitiMonitoraggio>)
+DataPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RegioneGeografica> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RiservaAcquaArtificiale> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RiservaAcquaArtificiale>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RiservaAcquaArtificiale> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorpiIdrici>)
+DataPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RiservaAcquaArtificiale> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SistemaClassificazione> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SistemaClassificazione>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SistemaClassificazione> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#registrazioni>)
+DataPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SistemaClassificazione> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoID> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoID>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoID> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SitiMonitoraggio>)
+DataPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoID> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#TipoCorpoIdrico> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#TipoCorpoIdrico>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#TipoCorpoIdrico> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorpiIdrici>)
+DataPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#TipoCorpoIdrico> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ValoreClassificazioneEcologica> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ValoreClassificazioneEcologica>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ValoreClassificazioneEcologica> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ParametriStatoEcologico>)
+DataPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ValoreClassificazioneEcologica> xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#data> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#data>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#data> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#registrazioni>)
+DataPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#data> owl:real)
+
+# Data Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lat> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lat>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lat> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SitiMonitoraggio>)
+DataPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lat> owl:real)
+
+# Data Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lon> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lon>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lon> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SitiMonitoraggio>)
+DataPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lon> owl:real)
+
+# Data Property: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#nCampioni> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#nCampioni>)
+
+DataPropertyDomain(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#nCampioni> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#registrazioni>)
+DataPropertyRange(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#nCampioni> xsd:integer)
+
+
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo1> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo1>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorpiIdrici> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo1>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NaturalAWBHMWB> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo1> "Natural")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeCorpoIdrico> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo1> "DANUBE")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RiservaAcquaArtificiale> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo1> "Not a reservoir")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#TipoCorpoIdrico> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo1> "RW")
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo2> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo2>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorpiIdrici> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo2>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NaturalAWBHMWB> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo2> "Natural")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NaturalAWBHMWB> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo2> "RW")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeCorpoIdrico> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo2> "RIO CASTRIL AGUAS ABAJO OF LA PRESA DEL PORTILLO")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RiservaAcquaArtificiale> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo2> "Missing")
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo3> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo3>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorpiIdrici> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo3>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NaturalAWBHMWB> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo3> "Natural")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeCorpoIdrico> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo3> "DOPLYW Z SITNA")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RiservaAcquaArtificiale> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo3> "Missing")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#TipoCorpoIdrico> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo3> "RW")
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo4> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo4>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorpiIdrici> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo4>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NaturalAWBHMWB> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo4> "AWB")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeCorpoIdrico> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo4> "MONKS DITCH")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RiservaAcquaArtificiale> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo4> "Missing")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RiservaAcquaArtificiale> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo4> "RW")
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo5> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo5>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorpiIdrici> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo5>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NaturalAWBHMWB> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo5> "HMWB")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeCorpoIdrico> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo5> "AGGER")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RiservaAcquaArtificiale> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo5> "reservoir")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#TipoCorpoIdrico> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo5> "LW")
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo6> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo6>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorpiIdrici> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo6>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NaturalAWBHMWB> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo6> "Natural")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeCorpoIdrico> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo6> "BEHY NORTH MAYO010")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RiservaAcquaArtificiale> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo6> "Missing")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#TipoCorpoIdrico> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo6> "RW")
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe1> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe1>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ParametriStatoEcologico> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe1>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorrispondenteValoreCE> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe1> "Ottimo")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ValoreClassificazioneEcologica> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe1> "1"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe2> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe2>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ParametriStatoEcologico> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe2>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorrispondenteValoreCE> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe2> "Buono")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ValoreClassificazioneEcologica> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe2> "2"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe3> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe3>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ParametriStatoEcologico> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe3>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorrispondenteValoreCE> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe3> "Moderato")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ValoreClassificazioneEcologica> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe3> "3"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe4> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe4>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ParametriStatoEcologico> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe4>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorrispondenteValoreCE> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe4> "scarso")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ValoreClassificazioneEcologica> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe4> "4"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe5> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe5>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ParametriStatoEcologico> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe5>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CorrispondenteValoreCE> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe5> "pessimo")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#ValoreClassificazioneEcologica> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe5> "5"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg1> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg1>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#registrazioni> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoEcologicoRegistrato> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg1> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe1>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CodProprietaOsservate> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg1> "EEA_11-08-5")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeProprietaOsservate> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg1> "PhytoplanktonEQR")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SistemaClassificazione> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg1> "Chla")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#data> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg1> "2019"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#nCampioni> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg1> "4"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg2> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg2>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#registrazioni> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoEcologicoRegistrato> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg2> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe3>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CodProprietaOsservate> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg2> "EEA_123-04-6")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeProprietaOsservate> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg2> "MacrophyteEQR_E")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SistemaClassificazione> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg2> "Chla")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#data> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg2> "2007"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#nCampioni> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg2> "8"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg3> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg3>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#registrazioni> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoEcologicoRegistrato> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg3> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe2>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CodProprietaOsservate> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg3> "EEA_13-01-4")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeProprietaOsservate> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg3> "InvertebrateEQR_G")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SistemaClassificazione> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg3> "M-AMBI")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#data> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg3> "2010"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#nCampioni> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg3> "1"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg4> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg4>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#registrazioni> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg4>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoEcologicoRegistrato> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg4> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe4>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CodProprietaOsservate> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg4> "EEA_13-01-4")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeProprietaOsservate> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg4> "InvertebrateEQR_G")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SistemaClassificazione> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg4> "Chla")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#data> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg4> "2012"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#nCampioni> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg4> "12"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg5> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg5>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#registrazioni> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg5>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoEcologicoRegistrato> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg5> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe5>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CodProprietaOsservate> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg5> "EEA_11-04-1")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeProprietaOsservate> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg5> "PhytoplanktonEQR_E")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SistemaClassificazione> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg5> "IBGN")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#data> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg5> "2011"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#nCampioni> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg5> "5"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg6> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg6>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#registrazioni> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg6>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoEcologicoRegistrato> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg6> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe1>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CodProprietaOsservate> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg6> "EEA_124-04-9")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeProprietaOsservate> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg6> "PhytobenthosEQR_E")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SistemaClassificazione> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg6> "IPS")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#data> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg6> "2013"^^xsd:integer)
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg7> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg7>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#registrazioni> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg7>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoEcologicoRegistrato> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg7> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#classe1>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#CodProprietaOsservate> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg7> "EEA_124-04-9")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#NomeProprietaOsservate> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg7> "PhytobenthosEQR_E")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SistemaClassificazione> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg7> "ICMi")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#data> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg7> "2012"^^xsd:integer)
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito1> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito1>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SitiMonitoraggio> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#haRegistrato> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito1> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#monitora> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito1> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo1>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#IDSitoM> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito1> "ATFW10000027")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RegioneGeografica> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito1> "DANUBE")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoID> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito1> "AT")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lat> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito1> "47.86354"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lon> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito1> "16.65678"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito2> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito2>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SitiMonitoraggio> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#haRegistrato> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito2> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg5>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#monitora> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito2> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo2>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#IDSitoM> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito2> "ES050ESPF20301")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RegioneGeografica> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito2> "GUADALQUIVIR")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoID> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito2> "ES")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lat> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito2> "37.64899"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lon> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito2> "-2.77569"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito3> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito3>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SitiMonitoraggio> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#haRegistrato> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito3> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg7>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#monitora> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito3> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo3>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#IDSitoM> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito3> "PL01S0701_0612")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RegioneGeografica> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito3> "VISTULA RIVER BASIN DISTRICT")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoID> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito3> "PL")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lat> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito3> "52.55131"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lon> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito3> "21.28636"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito4> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito4>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SitiMonitoraggio> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito4>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#haRegistrato> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito4> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#monitora> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito4> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo4>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#IDSitoM> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito4> "UK0CYMB45678")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RegioneGeografica> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito4> "SEVERN")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoID> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito4> "UK")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lat> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito4> "51.60588"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lon> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito4> "-2.8901"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito5> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito5>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SitiMonitoraggio> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito5>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#haRegistrato> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito5> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg6>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#monitora> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito5> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo5>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RegioneGeografica> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito5> "SCHELDE")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoID> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito5> "NL")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoID> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito5> "NL25_AG_910220")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lat> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito5> "51.3947"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lon> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito5> "4.2911"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito6> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito6>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SitiMonitoraggio> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito6>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#haRegistrato> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito6> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#monitora> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito6> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo6>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#IDSitoM> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito6> "IEMRRS34B080400")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RegioneGeografica> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito6> "REPUBLIC OF IRELAND")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoID> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito6> "IE")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lat> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito6> "54.10756"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lon> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito6> "-9.09053"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito7> (<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito7>)
+
+ClassAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#SitiMonitoraggio> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito7>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#haRegistrato> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito7> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#reg6>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#monitora> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito7> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#Corpo1>)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#IDSitoM> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito7> "ATFW10000057")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#RegioneGeografica> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito7> "DANUBE")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#StatoID> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito7> "AT")
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lat> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito7> "47.02192"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#lon> <http://www.semanticweb.org/ignaz/ontologies/2024/4/untitled-ontology-3#sito7> "16.13606"^^xsd:decimal)
+
+
+)
